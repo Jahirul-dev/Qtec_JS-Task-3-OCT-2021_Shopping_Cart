@@ -1,0 +1,77 @@
+body{
+    background-color: #f2f4f9;
+}
+.sub_div {
+    position: relative;
+    bottom: 0px;
+}
+.productCard{
+  border-radius: 5px;
+    background-color: white; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 4px;
+    margin: 9px;
+    cursor: pointer;
+}
+.daynamic{
+  display: flex;
+}
+#imageTitle{
+  display: flex;
+  margin-top: 20px;
+}
+.container{
+    background-color: #f2f4f9;
+    display: flex;
+}
+.partleft{
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 60%; */
+}
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid #cfcfcf;
+    float: left;
+    width: 91%;
+    background: #ffffff;
+    margin-left: 10px;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  hr.new1 {
+    border-top: 1px solid #dfdfdf;
+    margin-left: 10px;
+  }
+  .img{
+        border: 2px solid rgb(235, 235, 235);
+        padding: 15px;
+        margin: 20px;
+  }
+  #top-right {
+    height: 21px;
+    background-color: #69bda9;
+    padding-left: 6px;
+    padding-right: 8px;
+    width: 7px;
+    border-radius: 45px 45px 45px 45px;
+    margin-left: -34px;
+    margin-top: 14px;
+    color: white;
+  }
+  .proText{
+    white-space: nowrap; 
+    width: 70px; 
+    overflow: hidden;
+    text-overflow: clip; 
+    padding: 0;
+    margin: 0;
+  }
+  .fa-trash{
+    cursor: pointer;
+  }
